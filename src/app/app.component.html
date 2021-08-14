@@ -1,0 +1,34 @@
+<app-navbar></app-navbar>
+
+
+<div class="container mainc">
+  <div class="row fnc g-2">
+   
+    <div class="col-md-4">
+      <app-featurednews></app-featurednews>
+    </div>
+    <div class="col-md-4">
+      <app-featurednews></app-featurednews>
+    </div>
+    <div class="col-md-4">
+      <app-featurednews></app-featurednews>
+    </div>
+  
+  </div>
+  <div class="row DisplayConatiner">
+    <div class="col-md-8 DisplayNews">
+      <!-- MAIN DISPLAY BOX -->
+      <router-outlet></router-outlet>
+
+
+
+    </div>
+    <div class="col-md-4 DisplayPopular">
+      <h3>Most Popular</h3>
+      <app-mostpopular></app-mostpopular>
+      <app-mostpopular></app-mostpopular>
+      <app-mostpopular></app-mostpopular>
+      
+    </div>
+  </div>
+</div>

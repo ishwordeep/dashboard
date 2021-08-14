@@ -1,0 +1,15 @@
+.mainc{
+    padding-top:100px;
+    /* background-color:pink; */
+    /* height:100%; */
+}
+.fnc{
+    background-color:#989fa5;
+    padding: 25px;
+}
+.DisplayConatiner{
+    margin-top:10px;
+}
+.DisplayPopular, .DisplayNews {
+    border:2px solid #ccc;
+}

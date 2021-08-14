@@ -1,0 +1,29 @@
+
+.featurediv{
+    background-color: whitesmoke;
+    font-family: 'Newsreader', serif;
+    border-radius:10px;
+}
+.imgcol img{
+    /* height:80%; */
+    width:75%;
+    border-radius:10px;
+}
+.titledatecol{
+    margin-left:-61px;
+}
+.imgcol:hover{
+    
+    transform: scale(1.1); 
+    
+}
+.datecol{
+    opacity:0.6 ;
+}
+.datecol:hover{
+    opacity:1;
+}
+.titlecol:hover{
+    text-decoration: underline;
+    
+}
